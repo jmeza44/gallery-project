@@ -13,11 +13,12 @@
 <body>
     <header>
         <h1>Mi Sitio Web</h1>
-        <!-- Agregar este elemento select antes del div.card-container -->
-        <label for="filter-select">Filtrar por título:</label>
-        <select id="filter-select">
-            <option value="all">Todas las cards</option>
-        </select>
+        <div class="container-sm">
+            <label for="filter-select">Filtrar por título:</label>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="filter-select">
+                <option value="all">Todas las cards</option>
+            </select>
+        </div>
     </header>
     <main>
         <div class="container-xl row m-auto" id="card-container">
